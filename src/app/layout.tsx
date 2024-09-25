@@ -24,25 +24,25 @@ export default function RootLayout({
                     <nav className='flex space-x-4'>
                         <Link
                             href='/'
-                            className='text-gray-600 hover:text-black'
+                            className='text-gray-200 hover:text-grey-400'
                         >
                             Home
                         </Link>
                         <Link
                             href='/blog'
-                            className='text-gray-600 hover:text-black'
+                            className='text-gray-200 hover:text-grey-400'
                         >
                             Blog
                         </Link>
                         <Link
                             href='/photos'
-                            className='text-gray-600 hover:text-black'
+                            className='text-gray-200 hover:text-grey-400'
                         >
                             Photos
                         </Link>
                         <Link
                             href='/contact'
-                            className='text-gray-600 hover:text-black'
+                            className='text-gray-200 hover:text-grey-400'
                         >
                             Contact
                         </Link>
