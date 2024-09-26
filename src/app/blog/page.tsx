@@ -23,10 +23,6 @@ export default function Page() {
 
     return (
         <div>
-            <section className=' bg-gray-100 p-16 text-center'>
-                <h2 className='text-5xl font-bold text-gray-800'>Blog</h2>
-            </section>
-
             <section className='mt-8 p-4'>
                 <h3 className='text-3xl font-bold'>All blog posts</h3>
                 <p className='mt-2'>Sorted from latest to oldest</p>
