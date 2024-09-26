@@ -19,31 +19,21 @@ export default function RootLayout({
     return (
         <html lang='en'>
             <body>
-                <header className='flex justify-between items-center py-4 border-b border-gray-200'>
-                    <h1 className='text-3xl font-bold'>Your Logo</h1>
+                <header className='flex justify-between items-center py-4 px-2 border-b border-gray-200'>
+                    <Link href='/' className='text-3xl font-bold'>
+                        Gabriel Dalmoro
+                    </Link>
                     <nav className='flex space-x-4'>
-                        <Link
-                            href='/'
-                            className='text-gray-200 hover:text-grey-400'
-                        >
+                        <Link href='/' className='hover:text-gray-800'>
                             Home
                         </Link>
-                        <Link
-                            href='/blog'
-                            className='text-gray-200 hover:text-grey-400'
-                        >
+                        <Link href='/blog' className='hover:text-gray-800'>
                             Blog
                         </Link>
-                        <Link
-                            href='/photos'
-                            className='text-gray-200 hover:text-grey-400'
-                        >
+                        <Link href='/photos' className='hover:text-gray-800'>
                             Photos
                         </Link>
-                        <Link
-                            href='/contact'
-                            className='text-gray-200 hover:text-grey-400'
-                        >
+                        <Link href='/contact' className='hover:text-gray-800'>
                             Contact
                         </Link>
                     </nav>
